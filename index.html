@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Servicios</title>
+    <style>
+         body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1{
+            color: red;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            border: 2px solid #f00;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .servicio {
+            flex: 1 1 calc(33.33% - 40px);
+            max-width: calc(33.33% - 40px);
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        .servicio img {
+            width: 40%;
+            
+        }
+
+        .servicio h3 {
+            font-size: 18px;
+            color: #800080;
+            margin: 10px 0 0;
+        }
+       
+        nav{
+            background-color: burlywood;
+            justify-content: space-around;
+            display: flex;
+            
+        }
+     
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Quienes somos</a>
+        <a href="#">Donde estamos</a>
+        <a href="#">Contacto</a>
+        <a href="#nuestros-servicios">Nuestros Servicios</a>
+    </nav>
+    <div class="container">
+        <h1>Nuestros Servicios</h1>
+        <div class="services">
+            <div class="servicio">
+                <img src="asistencia.png" alt="Servicio Técnico">
+                <h3>Servicio Técnico</h3>
+            </div>
+            <div class="servicio">
+                <img src="consultoría-1-300x215.jpg" alt="Consultoría">
+                <h3>Consultoría</h3>
+            </div>
+            <div class="servicio">
+                <img src="mobile.png" alt="Apps Móviles">
+                <h3>Apps Móviles</h3>
+            </div>
+            <div class="servicio">
+                <img src="drone.jpg" alt="Drones">
+                <h3>Drones</h3>
+            </div>
+            <div class="servicio">
+                <img src="web.jfif" alt="Diseño Web">
+                <h3>Diseño Web</h3>
+            </div>
+            <div class="servicio">
+                <img src="soluciones.jpg" alt="Soluciones">
+                <h3>Soluciones</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
